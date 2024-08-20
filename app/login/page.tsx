@@ -37,7 +37,7 @@ export default function Login() {
         // Handle login error
         console.error(response.error);
       } else {
-        router.push("/");
+        router.push("/chat");
       }
     } catch (error) {
       console.error(error);
