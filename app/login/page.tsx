@@ -1,10 +1,12 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import google from "@/public/google.png";
 import { HiAtSymbol, HiFingerPrint } from "react-icons/hi";
 import { FormEvent, useState } from "react";
 import { signIn, useSession } from "next-auth/react";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 import Head from "next/head";
 
